@@ -1,0 +1,75 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset= "UTF-8">
+    <meta name= "viewport" content= "width=device-width, initial-scale=1.0">
+    <title>Shannon's Tip Calculator</title>
+     <link rel = 'stylesheet' type = 'text/css' href = 'index.css' />
+     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class = "calculator-container6">
+        <div class = "calculator-container5">
+            <div class = "calculator-container4">
+                <div class = "calculator-container3">
+                    <div class = "calculator-container2">
+                        <div class = "calculator-container1">
+                                <div class = "calculator-container">
+                                        <h1>Tip Calculator</h1>
+                                    <div class = "calculator">
+
+                                        <form>
+                                            <div class = 'form-sections green'>
+                                                <p>Select a tip percent: </p> 
+                                                <select id="tipPercent">
+                                                        <option value="0.05">
+                                                            5&#37;
+                                                        </option>
+                                                        <option value="0.1">
+                                                            10&#37;
+                                                        </option>
+                                                        <option value="0.15">
+                                                            15&#37;
+                                                        </option>
+                                                        <option value="0.2">
+                                                            20&#37;
+                                                        </option>
+                                                        <option value="0.25">
+                                                            15&#37;
+                                                        </option>
+                                                        <option value="0.3">
+                                                            30&#37;
+                                                        </option>
+                                                    </select>
+                                            </div>
+
+                                            <div class = 'form-sections yellow'>
+                                                <p>Enter the bill amount:</p>
+                                                $<input id="cost" type="text" placeholder="enter bill amount">
+                                            </div>    
+                                    
+                                            <div class = 'form-sections red'>
+                                                <p>How many peopel are splitting the bill?</p>
+                                                <input id="numOfBills" type="text" placeholder="enter number of bills">
+                                            </div>
+
+                                            <button type="button" id="calculate">Calculate Tip!</button>
+
+                                        </form>
+
+                                    </div>
+
+                                    <div id="tipAmount-container">
+                                        <span>$</span><span id="tipAmount">0.00</span>
+                                        <p id="finalTipAmount">Per Person</p>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+      <script type="text/javascript" src="index.js"></script>
+</body>
+</html>

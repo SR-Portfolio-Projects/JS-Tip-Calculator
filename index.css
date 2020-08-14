@@ -1,0 +1,168 @@
+body {
+    background: black;
+    font-family: 'Anton', sans-serif;
+}
+
+
+.calculator-container1 {
+    background: red;
+    margin: 0 auto;
+    width:89%;
+  }
+  
+  .calculator-container2 {
+    background: yellow;
+    margin: 0 auto;
+    width:89%;
+  }
+  
+  
+  .calculator-container3 {
+    background: green;
+    margin: 0 auto;
+    width:89%;
+  }
+  
+  
+  .calculator-container4 {
+    background: red;
+    margin: 0 auto;
+    width:89%;
+  }
+  
+  .calculator-container5 {
+    background: yellow;
+    margin: 0 auto;
+    width:89%;
+  }
+  
+  
+  .calculator-container6 {
+    background: green;
+    margin: 0 auto;
+    width: 89%;
+  }
+  
+  .calculator {
+    width: 90%;
+  }
+
+
+  
+.calculator-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    margin: 200px auto;
+    width: 89%;
+    color: #FFFFFF;
+    border: 2px solid red;
+   
+}
+
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .form-sections {
+    margin-bottom: 20px;
+    padding:0 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    width: 80%;
+  }
+  
+
+
+  #tipPercent {
+    font-size: 15px;
+    align-self: center;
+    margin-right: 95px;
+  }
+  
+  .form-sections input {
+    align-self: center;
+  }
+  
+  .green {
+    border: 2px solid green;
+  }
+  
+  .yellow {
+    border: 2px solid yellow;
+  }
+  
+  .red {
+    border: 2px solid red;
+  }
+  
+  
+
+  
+ button {
+    display: block;
+    margin: 30px auto;
+    background: #000000;
+    border-color: green;
+    border-top-color: yellow;
+    border-bottom-color: red;
+    font-family: 'Anton', sans-serif;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    color: white;
+    text-transform: uppercase;
+  }
+  input, select{
+    border-bottom-color: yellow;
+    border-right-color: yellow;
+    border-top-color: red;
+    border-left-color: red;
+    font-family: 'Anton', sans-serif;
+    background: green;
+    color: red;
+  }
+  input::placeholder, select {
+    color: rgb(187, 186, 186);
+  }
+  
+  input:focus {
+    background: yellow;
+    border-color: green;
+  }
+  
+  button:hover {
+    border-color: green;
+    border-left-color: yellow;
+    border-right-color: red;
+    
+  }
+  
+  button:active {
+    position: relative;
+    top: 1px;
+  }
+  
+   #tipAmount-container {
+    font-size: 30px;
+    margin-top: 5px;
+    text-align: center;
+    background-color: green;
+    border-radius: 5px;
+  }
+   
+  #tipAmount-container:before {
+    content: "Tip amount";
+    font-size: 20px;
+    text-transform: uppercase;
+  }
