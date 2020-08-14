@@ -105,6 +105,21 @@ form {
     border: 2px solid red;
   }
   
+
+  #tipAmount-container {
+    font-size: 30px;
+    margin-top: 5px;
+    text-align: center;
+    background-color: transparent;
+    border-color: green;
+    border-radius: 5px;
+  }
+   
+  #tipAmount-container:before {
+    content: "Tip amount";
+    font-size: 20px;
+    text-transform: uppercase;
+  }
   
 
   
@@ -153,16 +168,3 @@ form {
     top: 1px;
   }
   
-   #tipAmount-container {
-    font-size: 30px;
-    margin-top: 5px;
-    text-align: center;
-    background-color: green;
-    border-radius: 5px;
-  }
-   
-  #tipAmount-container:before {
-    content: "Tip amount";
-    font-size: 20px;
-    text-transform: uppercase;
-  }
